@@ -1,0 +1,5 @@
+build/contracts/Migrations.json
+build/contracts/RideContract.json
+carpooling/package-lock.json
+carpooling/package.json
+node_modules

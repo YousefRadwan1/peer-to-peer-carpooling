@@ -1,0 +1,19 @@
+{
+  "name": "ride-contract",
+  "version": "1.0.0",
+  "description": "Smart contract for managing rides",
+  "main": "truffle-config.sol",
+  "scripts": {
+    "compile": "solc RideContract.sol --bin --abi -o build/",
+    "test": "echo \"No tests specified\" && exit 0",
+    "dev": "lite-server"
+  },
+  "author": "dattran2003.ttn@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "react-router-dom": "^6.22.3",
+    "solc": "^0.8.10",
+    "truffle-contract": "^4.0.31",
+    "web3": "^4.7.0"
+  }
+}
